@@ -1,0 +1,59 @@
+body{
+    background-image: url("../Images/sign_in_background.jpg");
+}
+#sign_in_fields{
+    background-color: antiquewhite;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    margin-top: 8%;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding-top: 35px;
+}
+
+#sign_in_fields *{
+    margin: 5px;
+}
+
+#sign_in_fields button{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    width: 90%;
+    height: 40px;
+    border-radius: 10px;
+    border-width: 0.5px;
+    color: brown;
+    box-shadow: 3px 3px;
+    background-color: rgb(247, 250, 255);
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#sign_in_title{
+    text-align: center;
+    margin: auto;
+    font-size: 40px;
+    margin-top: 8%;
+    color: brown;
+    text-shadow: 2px 2px 2px rgb(186, 146, 146);
+}
+
+input{
+    width: 90%;
+    height: 50px;
+    border-radius: 10px;
+    border-color: brown;
+    border-width: 0.5px;
+}
+
+::placeholder{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 10px;
+}
+
+#sign_in_fields button:hover{
+    background-color: rgb(230, 239, 255);
+}

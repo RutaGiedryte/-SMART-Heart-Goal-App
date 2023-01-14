@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Heart - Add Target</title>
+
+    <link rel="stylesheet" href="Css/add_target.css">
+</head>
+<body>
+    <h1>Add new target to your goal:</h1>
+
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    <p>Enter your target:</p>
+                    <input type="text" placeholder="for example: I will drink a glass of water">
+
+                    <p>How many times will I do this task?</p>
+                    <input type="number">
+
+                    <p>What is the due date for this target?</p>
+                    <input type="date">
+
+                    <p>Target type:</p>
+                    <input list="type" placeholder="Select type">
+                    <datalist id="type">
+                        <option value="Numeric" />
+                        <option value="Boolean" />
+                        <option value="Monetary" />
+                        <option value="Task-related" />
+                    </datalist>
+
+                </td>
+                <td>
+                    <img src="images/add_target_image.jpg">
+                </td>
+            </tr>
+        </tbody>
+    </table><br>
+
+    <a href="goal_targets.html"><button type="button">Add target</button><br></a>
+
+</body>
+</html>

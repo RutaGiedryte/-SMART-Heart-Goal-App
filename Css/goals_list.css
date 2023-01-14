@@ -1,0 +1,87 @@
+body{
+    background: rgb(255,214,203);
+    background: radial-gradient(circle, rgba(255,214,203,1) 0%, rgba(241,228,149,1) 100%);
+    text-align: center;
+}
+
+img{
+    height: 500px;
+    border-radius: 10px;
+    margin-left: 50px;
+    filter:saturate(80%);
+}
+
+@media screen and (max-width: 900px) {
+    img{
+        display: none;
+    }
+}
+
+button{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border-width: 0.5px;
+    color: brown;
+    box-shadow: 3px 3px;
+    background-color: rgb(247, 250, 255);
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button:hover{
+    background-color: rgb(230, 239, 255);
+}
+
+table{
+    display: inline-table;
+    margin-bottom: 20px;
+}
+
+#inner_table{
+    border: 1px solid brown;
+    background-color: antiquewhite;
+}
+
+#inner_table td{
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid brown;
+    font-size: large;
+}
+
+#inner_table td button{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border-width: 0.5px;
+    color: brown;
+    box-shadow: 0px 0px;
+    background-color: rgb(247, 250, 255);
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#inner_table td button:hover{
+    background-color: rgb(230, 239, 255);
+}
+
+h1{
+    font-size: 45px;
+    color: brown;
+    text-shadow: 1px 1px 1px rgb(186, 146, 146);
+    margin-top: 40px;
+    margin-bottom: 80px;
+    margin-left: 20px;
+    text-align: left;
+}
+
+#sign_out{
+    float: right;
+    margin-top: -30px;
+    margin-right: 20px;
+}
